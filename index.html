@@ -1,6 +1,13 @@
-<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
-<title>Paula-Petra Ike Chukwu</title>
-<meta name="claude:viewport-fit-sides" content="cover">
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Professional portfolio of Paula-Petra Ike Chukwu: creative production, project management, and social media &amp; digital marketing work.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Paula-Petra Ike Chukwu | Professional Portfolio">
+<meta property="og:description" content="Creative production, project management, and social media &amp; digital marketing portfolios.">
+<title>Paula-Petra Ike Chukwu | Professional Portfolio</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=Hanken+Grotesk:wght@400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -199,6 +206,9 @@ h1 em { font-style: italic; }
 .board i:nth-child(2) b:nth-child(1) { background: var(--accent); border-color: var(--accent); opacity: 0.85; }
 .board i:nth-child(3) b:nth-child(3) { height: 16px; }
 .board u { display: block; height: 4px; border-radius: 2px; background: var(--ink); width: 100%; text-decoration: none; }
+.bars { display: flex; gap: 8px; align-items: flex-end; width: 118px; height: 84px; }
+.bars i { flex: 1; display: block; border: 1px solid var(--rule); border-radius: 3px; background: var(--bg); }
+.bars i:last-child { background: var(--accent); border-color: var(--accent); opacity: 0.85; }
 
 /* contact */
 .contact { padding-block: clamp(56px, 8vw, 96px) 40px; }
@@ -229,7 +239,7 @@ footer {
   .frames { order: -1; min-height: 200px; }
   .feature .go { margin-top: 8px; }
   .secondary { grid-template-columns: minmax(0, 1fr); }
-  .board { display: none; }
+  .board, .bars { display: none; }
   .row { grid-template-columns: minmax(0, 1fr) auto; }
   .row dt { grid-column: 1 / -1; }
 }
@@ -240,6 +250,8 @@ footer {
 }
 </style>
 
+</head>
+<body>
 <div class="wrap">
   <header class="bar">
     <span>Portfolio</span>
@@ -247,16 +259,16 @@ footer {
 
   <main>
     <section class="hero" aria-labelledby="name">
-      <p class="role">Creative Producer | Project &amp; Marketing Operations</p>
+      <p class="role">Marketing Strategy &amp; Operations | Creative &amp; Project Management</p>
       <h1 id="name">Paula-Petra <em>Ike Chukwu</em></h1>
       <div class="intro">
-        <p>I'm a creative and project management professional with experience coordinating digital content production, managing cross-functional teams, and delivering creative and marketing projects from planning through execution.</p>
-        <p>My experience combines creative execution with structured project management, helping teams coordinate deliverables, maintain quality and meet deadlines.</p>
+        <p>I'm a marketing and creative operations professional with experience developing marketing strategies, coordinating cross-functional teams, and managing campaigns and creative projects from concept to execution.</p>
+        <p>My work spans social media strategy, brand development, digital marketing and project management. I bring together strategic thinking, creative execution and structured workflows to help teams turn ideas into well-executed marketing initiatives.</p>
       </div>
     </section>
 
     <section aria-labelledby="work-label">
-      <p class="label" id="work-label">Two portfolios</p>
+      <p class="label" id="work-label">Explore my work</p>
       <div class="cards">
         <a class="card feature" href="https://www.kreateway.com/portfolio.html#videos" target="_blank" rel="noopener">
           <div class="text">
@@ -282,6 +294,18 @@ footer {
             <i><u></u><b></b><b></b></i>
             <i><u></u><b></b><b></b></i>
             <i><u></u><b></b><b></b><b></b></i>
+          </div>
+        </a>
+
+        <a class="card secondary" href="https://paula-petra-ikechukwu-smm-portfolio.my.canva.site/" target="_blank" rel="noopener">
+          <div class="text">
+            <span class="tag">Digital Marketing</span>
+            <h2>Social Media &amp; Digital Marketing Portfolio</h2>
+            <p>Explore my work in social media strategy, content development, digital campaigns, platform growth and performance.</p>
+            <span class="go">View the portfolio <span aria-hidden="true">→</span></span>
+          </div>
+          <div class="bars" aria-hidden="true">
+            <i style="height:30%"></i><i style="height:48%"></i><i style="height:40%"></i><i style="height:70%"></i><i style="height:100%"></i>
           </div>
         </a>
       </div>
@@ -335,5 +359,5 @@ footer {
   });
 })();
 </script>
-
-</body></html>
+</body>
+</html>
